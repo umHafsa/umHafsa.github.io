@@ -1,1 +1,0 @@
-import{s as o,f as s,l as u}from"./BXXY4e6n.js";function l(){const n=o(),{locale:t,defaultLocale:a}=s();return{contentPath:u(()=>{const e=n.path;return t.value!==a&&e.startsWith(`/${t.value}`)?e.slice(`/${t.value}`.length)||"/":e})}}export{l as u};
