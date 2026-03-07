@@ -1,0 +1,1 @@
+import{s,f as o,l as u}from"./ClsErTi9.js";function r(){const n=s(),{locale:e,defaultLocale:a}=o();return{contentPath:u(()=>{let t=n.path;return t!=="/"&&t.endsWith("/")&&(t=t.slice(0,-1)),e.value!==a&&t.startsWith(`/${e.value}`)?t.slice(`/${e.value}`.length)||"/":t})}}export{r as u};
